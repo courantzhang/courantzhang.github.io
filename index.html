@@ -285,6 +285,95 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2024/01/31/tqdm%E7%9A%84%E4%BD%BF%E7%94%A8/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/tx.jpg">
+      <meta itemprop="name" content="Courant Zhang">
+      <meta itemprop="description" content="Step by Step">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="courant">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2024/01/31/tqdm%E7%9A%84%E4%BD%BF%E7%94%A8/" class="post-title-link" itemprop="url">tqdm的使用</a>
+        </h2>
+
+        <div class="post-meta">
+
+	  
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2024-01-31 17:56:02 / 修改时间：18:04:52" itemprop="dateCreated datePublished" datetime="2024-01-31T17:56:02+08:00">2024-01-31</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E7%BC%96%E7%A8%8B/" itemprop="url" rel="index"><span itemprop="name">编程</span></a>
+                </span>
+            </span>
+
+          
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+              <span>166</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+              <span>1 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <hr>
+<hr>
+<h1 id="tqdm的使用："><a href="#tqdm的使用：" class="headerlink" title="tqdm的使用："></a>tqdm的使用：</h1><h2 id="trange可以替代tqdm-range-n"><a href="#trange可以替代tqdm-range-n" class="headerlink" title="trange可以替代tqdm(range(n))"></a>trange可以替代tqdm(range(n))</h2><img src="/2024/01/31/tqdm%E7%9A%84%E4%BD%BF%E7%94%A8/image-20240131180126117.png" class="" title="image-20240131180126117">
+
+<h2 id="tqdm结合progress-apply"><a href="#tqdm结合progress-apply" class="headerlink" title="tqdm结合progress_apply"></a>tqdm结合progress_apply</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">tqdm.pandas(desc=<span class="string">&quot;进度条配文&quot;</span>)<span class="comment">#desc里是进度条的描述</span></span><br><span class="line">df.progress_apply(<span class="keyword">lambda</span> x:x)<span class="comment">#rolling后面跟不会显示进度，只会显示处理速度，因为不知道循环次数</span></span><br></pre></td></tr></table></figure>
+
+<img src="/2024/01/31/tqdm%E7%9A%84%E4%BD%BF%E7%94%A8/image-20240131180221815.png" class="" title="image-20240131180221815">
+
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="http://example.com/2024/01/31/np-argsort%E5%92%8Cnp-corrcoef%E7%9A%84%E4%B8%80%E4%BA%9B%E5%9D%91/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -783,7 +872,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">6</span>
+          <span class="site-state-item-count">7</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -796,7 +885,7 @@
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">4</span>
+        <span class="site-state-item-count">5</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
